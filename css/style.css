@@ -1,0 +1,127 @@
+@keyframes animateCont{
+  0% {opacity: 0.0; margin-top: 100px;}
+  100% {opacity: 0.9; margin-top: 30px;}
+}
+
+
+/*Global*/
+body{
+  background-image: linear-gradient(90deg, rgb(4,7,32), rgb(2,4,72));
+  height: 100%;
+  user-select:none;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+}
+
+h1{
+  font-family: Lobster;
+  font-size: 80px;
+  color: rgb(242,242,0);
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+h2{
+  font-family: Poppins;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+#link{
+ color: rgb(242,242,0);
+ text-decoration: none; 
+}
+
+/*Advertise*/
+.addCont{
+  font-family: 'Bree Serif';
+  background-color: white;
+  border: solid 3px black;
+  border-radius: 10px;
+  width: 350px;
+  height: 120px;
+  display: block;
+  margin: 30px auto 0px auto;
+  animation: animateCont;
+  animation-duration: 0.5s;
+ }
+
+#addTitle{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+#x{
+  cursor: pointer;
+  font-family: 'Sedgwick Ave';
+  color: rgb(100,100,255);
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+
+#y{
+  cursor: pointer;
+  font-family: 'Sedgwick Ave';
+  color: rgb(255,62,62);
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+
+.btn{
+  font-family: Impact;
+  font-size: 20px;
+}
+
+#reset{
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#yes, #no{
+  cursor: pointer;
+  color: black;
+  font-weigth: bold;
+  font-family: Impact;
+}
+
+#yes{
+  color: rgb(29,150,65);
+}
+
+#no{
+  color: rgb(255,36,36);
+}
+
+
+/*Board*/
+.boardCont{
+  display:block;
+  margin: 30px auto 0px auto;
+  background-image: linear-gradient(to bottom, yellow, rgb(174,174,0));
+  width: 450px;
+  height: 450px;
+  animation: animateCont;
+  animation-duration: 0.5s;
+}
+
+.col-xs-4{
+  cursor: pointer;
+  font-family: 'Sedgwick Ave';
+  font-size: 90px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+  border: 3px solid black;
+  text-align: center;
+  display:inline-block;
+  height: 150px;
+  line-height: 150px;
+}
+
+
+
